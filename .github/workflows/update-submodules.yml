@@ -21,6 +21,7 @@ jobs:
       - name: Update submodules
         run: |
           git rm ./Tweaks/YTUHD
+          git rm ./Tweaks/Alderis
           git submodule update --init --recursive --remote
           git add .
           git commit -m "updated submodules"
