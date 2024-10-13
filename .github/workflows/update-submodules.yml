@@ -20,7 +20,6 @@ jobs:
 
       - name: Update submodules
         run: |
-          git rm ./Tweaks/YTUHD
           git rm ./Tweaks/YouLoop
           git submodule update --init --recursive --remote
           git add .
