@@ -20,7 +20,7 @@ jobs:
 
       - name: Update submodules
         run: |
-          git rm ./Tweaks/YouLoop
+          git rm ./Tweaks/YouGroupSettings
           git submodule update --init --recursive --remote
           git add .
           git commit -m "updated submodules"
